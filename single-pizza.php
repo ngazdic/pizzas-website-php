@@ -48,7 +48,7 @@ include './partials/header.php'
                         <div class="price">
                             <p><b>Size:</b><span class="size"> M <?php echo  $pizza['size']['M']['radius'] . ' '; ?> cm. Price </span> : <b class="price"><?php echo $pizza['size']['M']['price']; ?></b> &euro;</p>
                             <p><b>Size:</b><span class="size"> L <?php echo  $pizza['size']['L']['radius'] . ' '; ?> cm. Price</span> : <b class="price"><?php echo $pizza['size']['L']['price']; ?></b> &euro;</p>
-                            <p><b>Size:</b><span class="size"> XL <?php echo  $pizza['size']['XL']['radius'] . ' ';; ?>cm. Price </span> : <b class="price"><?php echo $pizza['size']['XL']['price']; ?></b> &euro;</p>
+                            <p><b>Size:</b><span class="size"> XL <?php echo  $pizza['size']['XL']['radius'] . ' '; ?>cm. Price </span> : <b class="price"><?php echo $pizza['size']['XL']['price']; ?></b> &euro;</p>
                         </div>
                         <p><b>Preparation time</b>: <span class="preparation-time"><?php echo $pizza['preparationTime']; ?></span> min</p>
                         <p><b>Customer rate</b>: <span class="rate"><?php echo $pizza['rating']; ?></span> <span class="fa fa-star"></span></p>
