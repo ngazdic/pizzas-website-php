@@ -1,3 +1,9 @@
+
+
+
+<!-- NAPOMENA - website nisam napravio da bude responsive, naknadno sam shvatio da nije,
+ako treba nije problem mogu i to da uradim-->
+
 <?php
 
 include './partials/menu.php';
@@ -35,6 +41,7 @@ include './partials/header.php';
             <p>The homepage about section is empty, nothing to show</p>
         <?php else : ?>
             <section class="index-section">
+                
                 <aside class="index-image">
                     <img src="<?php echo $homepageAbout['image']; ?>" alt="<?php echo $homepageAbout['title']; ?>">
                 </aside>
